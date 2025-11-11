@@ -42,15 +42,21 @@
         <main class="main-content">
             <header class="topbar">
                 <div class="topbar-left">
-                    <p>Pages / Dashboard</p>
+                    <p> <span> Pages</span> / Dashboard</p>
                     <h1>Dashboard</h1>
                 </div>
 
                 <div class="topbar-right">
-                    <input type="text" placeholder="Type here..." />
-                    <a href="#">Sign In</a>
-                    <span class="settings">S</span>
-                    <span class="notification">N</span>
+                    <div class="search-input">
+                        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <input id="search-box" type="text" placeholder="Type here..." />
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-user"></i>
+                        <a href="#">Sign In</a>
+                    </div>
+                    <button class="btn"><span><i class="fa-solid fa-gear"></i></span></button>
+                    <button class="btn"><span><i class="fa-solid fa-bell"></i></span></button>
                 </div>
             </header>
 
@@ -68,6 +74,7 @@
             </footer>
         </main>
     </div>
+    <script src="https://kit.fontawesome.com/2df71787a4.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
