@@ -5,7 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard UI</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -34,24 +36,24 @@
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="active">
-                        <a href="#"><i class="fa-solid fa-house-chimney"></i>Dashboard</a>
+                        <a href="#"><ion-icon name="home"></ion-icon>Dashboard</a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa-solid fa-chart-simple"></i>Tables</a>
+                        <a href="#"><ion-icon name="stats-chart"></ion-icon>Tables</a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa-solid fa-box-archive"></i>Billing</a>
+                        <a href="#"><ion-icon name="card"></ion-icon>Billing</a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa-solid fa-wrench"></i>RTL</a>
+                        <a href="#"><ion-icon name="build"></ion-icon>RTL</a>
                     </li>
                 </ul>
 
                 <h3 class="section-title">ACCOUNT PAGES</h3>
-                <ul class="nav-list">
-                    <li><a href="#"><i class="fa-solid fa-user"></i>Profile</a></li>
-                    <li><a href="#"><i class="fa-solid fa-file"></i>Sign In</a></li>
-                    <li><a href="#"><i class="fa-solid fa-rocket"></i>Sign Up</a></li>
+                <ul class="nav-list account-nav">
+                    <li><a href="#"><ion-icon name="person"></ion-icon>Profile</a></li>
+                    <li><a href="#"><ion-icon name="document"></ion-icon>Sign In</a></li>
+                    <li><a href="#"><ion-icon name="rocket-sharp"></ion-icon>Sign Up</a></li>
                 </ul>
             </nav>
 
@@ -99,7 +101,8 @@
             </footer>
         </main>
     </div>
-    <script src="https://kit.fontawesome.com/2df71787a4.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
