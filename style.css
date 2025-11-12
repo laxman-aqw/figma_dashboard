@@ -83,14 +83,14 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.nav-list {
+.menu-list {
   margin-top: 3px;
   list-style: none;
   padding-left: 4px;
   margin-bottom: 14px;
 }
 
-.nav-list.account-nav a {
+.menu-list.account-menu a {
   display: flex;
   padding: 11px 16px;
   margin: 3px 0px 0px 5px;
@@ -104,7 +104,7 @@ body {
 }
 
 
-.nav-list a {
+.menu-list a {
   display: flex;
   padding: 11px 16px;
   margin: 3px 0px 0px 5px;
@@ -117,17 +117,17 @@ body {
   align-items: center;
 }
 
-.nav-list li.active a {
+.menu-list li.active a {
   background-color: white;
   color: rgb(43, 43, 43);
   box-shadow: 0px 1px 1px rgba(184, 184, 184, 0.1);
 }
 
-.nav-list a:hover {
+.menu-list a:hover {
   background-color: #e7e7e7;
 }
 
-.nav-list a ion-icon {
+.menu-list a ion-icon {
   background-color: #ffffff;
   font-size: 15px;
   padding:7px 7px;
@@ -135,7 +135,7 @@ body {
   color: #4FD1C5;
 }
 
-.nav-list li.active ion-icon {
+.menu-list li.active ion-icon {
   background-color: #4FD1C5;
   padding:7px 7px;
   border-radius: 12px;
@@ -172,7 +172,7 @@ body {
   border-radius: 50%;
 }
 
-.help-card-logo{
+.help-card-marks{
   width: max-content;
   background-color: white;
   border-radius: 12px;
