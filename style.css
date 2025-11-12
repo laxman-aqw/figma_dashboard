@@ -26,7 +26,7 @@ body {
   overflow: hidden;
 }
 
-.breadcrumbs {
+.header {
   position: absolute;
   top: 0;
   background-color: #f8f9fc;
@@ -49,13 +49,13 @@ body {
   justify-content:space-between;
 }
 
-.breadcrumbs-info p{
+.breadcrumbs p{
   font-size: 12px;
   font-weight: 400;
 }
 
 
-.breadcrumbs-info{
+.breadcrumbs{
   display: flex;
   flex-direction: column;
   justify-content:space-between;
@@ -63,13 +63,13 @@ body {
   margin-top: 13px;
 }
 
-.breadcrumbs-info p span{
+.breadcrumbs p span{
     color: #9ca3af;
   font-size: 12px;
   font-weight: 400;
 }
 
-.breadcrumbs-info h1{
+.breadcrumbs h1{
   font-size: 14px;
   font-weight: 700;
 }
@@ -85,7 +85,7 @@ body {
   flex-direction: column;
 }
 
-.breadcrumbs-search-area{
+.search-area{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -95,11 +95,11 @@ body {
   color:#718096;
 }
 
-.breadcrumbs-search-area button{
+.search-area button{
   color:#718096;
 }
 
-.breadcrumbs-search-area div a {
+.search-area div a {
   color: #718096;
   font-weight: 700;
   font-size: 12px;
