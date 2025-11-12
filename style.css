@@ -63,7 +63,7 @@ body {
   margin-top: 13px;
 }
 
-.breadcrumbs p span{
+.breadcrumbs-pages-text{
     color: #9ca3af;
   font-size: 12px;
   font-weight: 400;
@@ -110,7 +110,7 @@ body {
   font-size: 12px;
 }
 
-#search-box{
+.search-box{
   border-radius: 20px;
   padding: 10px 14px 10px 25px;
   outline: none;
@@ -118,7 +118,7 @@ body {
   width: 175px;
 }
 
-#search-box::placeholder {
+.search-box::placeholder {
   color: #A0AEC0;
   font-weight: 400;
   font-size: 12px;
