@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 13px;
+  font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -17,7 +17,7 @@ body {
   flex-direction: column;
 }
 
-.main-content {
+.main-dashboard {
   margin-left: 250px;
   flex: 1;
   min-height: 100vh;
@@ -25,11 +25,11 @@ body {
   overflow: hidden;
 }
 
-.topbar {
+.header {
   position: absolute;
   top: 0;
   background-color: #f8f9fc;
-  padding: 20px 40px;
+  padding: 10px 35px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -49,16 +49,145 @@ body {
 }
 
 
-
 .sidebar {
   position: fixed;
   top: 0;
   left: 0;
-  width: 260px;
+  width: 268px;
   height: 100vh;
+  background-color: #f8f9fc;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 20px;
+  padding: 24px 20px;
+  margin-left:3px;
+}
+
+.sidebar--logo{
+  display: flex;
+  justify-content:start;
+  align-items: center;
+  gap: 12px;
+  color: #2D3748;
+  padding: 20px 19px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(to right, transparent, rgb(204, 203, 203), transparent) 1;
+}
+
+.sidebar--logo-brand{
+  color: #111827;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.menu-list {
+  margin-top: 3px;
+  list-style: none;
+  padding-left: 4px;
+  margin-bottom: 14px;
+}
+
+.menu-list--links {
+  display: flex;
+  padding: 11px 16px;
+  margin: 3px 0px 0px 5px;
+  text-decoration: none;
+  color: #A0AEC0;
+  border-radius: 15px;
+  font-weight: 700;
+  justify-content: start;
+  gap: 12px;
+  align-items: center;
+}
+
+.active .links-home{
+  background-color: white;
+  color: rgb(43, 43, 43);
+  box-shadow: 0px 1px 1px rgba(184, 184, 184, 0.1);
+}
+
+.menu-list a:hover {
+  background-color: #e7e7e7;
+}
+
+.menu-list--ion-icon {
   background-color: #ffffff;
+  font-size: 15px;
+  padding:7px 7px;
+  border-radius: 12px;
+  color: #4FD1C5;
+  box-shadow: 0px 3.5px 5.5px 0px #00000005;
+
+}
+
+
+
+.active .menu-list--ion-icon {
+  background-color: #4FD1C5;
+  padding:7px 7px;
+  border-radius: 12px;
+  color: white;
+}
+
+.section-title{
+  margin-left: 25px;
+  margin-top: 16px;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.help-card{
+  height: 169px;
+  margin-top: 25px;
+  background-color: #4FD1C5;
+  border-radius: 15px;
+  padding: 15px 15px;
+  color: white;
+  margin-left: 12px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 24px 20px;
+  width: 219px;
+}
+
+.help-card--text{
+  color: white;
+  font-size: 14px;
+  padding: 1px 5px;
+  background-color:#4FD1C5 ;
+  border-radius: 50%;
+}
+
+.help-card--marks{
+  width: max-content;
+  background-color: white;
+  border-radius: 12px;
+  padding: 9px 8px;
+  margin: 2px 2px;
+}
+
+.help-card__title{
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.help-card-contents{
+  margin-top: 11px;
+  margin-left: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.help-card--btn{
+  font-weight:500;
+  font-size: 10px;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 12px;
+  background-color: white;
 }
