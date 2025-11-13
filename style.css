@@ -49,13 +49,13 @@ body {
   justify-content:space-between;
 }
 
-.breadcrumbs p{
+.header--breadcrumbs p{
   font-size: 12px;
   font-weight: 400;
 }
 
 
-.breadcrumbs{
+.header--breadcrumbs{
   display: flex;
   flex-direction: column;
   justify-content:space-between;
@@ -69,7 +69,7 @@ body {
   font-weight: 400;
 }
 
-.breadcrumbs h1{
+.header--breadcrumbs h1{
   font-size: 14px;
   font-weight: 700;
 }
@@ -95,11 +95,11 @@ body {
   color:#718096;
 }
 
-.search-area button{
+.search-area--btn{
   color:#718096;
 }
 
-.search-area div a {
+.search-area-btn {
   color: #718096;
   font-weight: 700;
   font-size: 12px;
@@ -124,7 +124,7 @@ body {
   font-size: 12px;
 }
 
-.btn{
+.search-area--btn{
   border: none;
   background-color:#f8f9fc ;
   padding-top: 4px;
