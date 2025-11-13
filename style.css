@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica;
 }
 
 body {
@@ -190,4 +190,30 @@ body {
   border: none;
   border-radius: 12px;
   background-color: white;
+}
+
+.footer{
+  padding-left: 31.5px;
+  margin-left: 18px;
+  margin-bottom: 5px;
+  color: #A0AEC0;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.footer span{
+  font-weight: 700;
+  color: #079b8c;
+}
+
+.footer-links{
+  display: flex;
+  gap: 44px;
+  margin-right: 21px;
+  text-decoration: none;
+}
+
+.footer-links a{
+  text-decoration: none;
+  color: #A0AEC0;
 }
