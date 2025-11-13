@@ -154,7 +154,7 @@ body {
   width: 219px;
 }
 
-.help-card p span{
+.help-card--text{
   color: white;
   font-size: 14px;
   padding: 1px 5px;
@@ -162,7 +162,7 @@ body {
   border-radius: 50%;
 }
 
-.help-card-marks{
+.help-card--marks{
   width: max-content;
   background-color: white;
   border-radius: 12px;
@@ -170,12 +170,12 @@ body {
   margin: 2px 2px;
 }
 
-.help-card p strong{
+.help-card__title{
   font-size: 14px;
   font-weight: 700;
 }
 
-.help-card div {
+.help-card-contents{
   margin-top: 11px;
   margin-left: 1px;
   display: flex;
@@ -183,7 +183,7 @@ body {
   gap: 4px;
 }
 
-.help-card button{
+.help-card--btn{
   font-weight:500;
   font-size: 10px;
   padding: 12px 10px;
