@@ -64,7 +64,7 @@ body {
   margin-left:3px;
 }
 
-.logo{
+.sidebar--logo{
   display: flex;
   justify-content:start;
   align-items: center;
@@ -76,7 +76,7 @@ body {
   border-image: linear-gradient(to right, transparent, rgb(204, 203, 203), transparent) 1;
 }
 
-.logo h2{
+.sidebar--logo-brand{
   color: #111827;
   font-weight: 700;
   font-size: 14px;
@@ -90,7 +90,7 @@ body {
   margin-bottom: 14px;
 }
 
-.menu-list.account-menu a {
+.menu-list--links {
   display: flex;
   padding: 11px 16px;
   margin: 3px 0px 0px 5px;
@@ -103,21 +103,7 @@ body {
   align-items: center;
 }
 
-
-.menu-list a {
-  display: flex;
-  padding: 11px 16px;
-  margin: 3px 0px 0px 5px;
-  text-decoration: none;
-  color: #A0AEC0;
-  border-radius: 15px;
-  font-weight: 700;
-  justify-content: start;
-  gap: 12px;
-  align-items: center;
-}
-
-.menu-list li.active a {
+.active .links-home{
   background-color: white;
   color: rgb(43, 43, 43);
   box-shadow: 0px 1px 1px rgba(184, 184, 184, 0.1);
@@ -127,7 +113,7 @@ body {
   background-color: #e7e7e7;
 }
 
-.menu-list a ion-icon {
+.menu-list--ion-icon {
   background-color: #ffffff;
   font-size: 15px;
   padding:7px 7px;
@@ -139,7 +125,7 @@ body {
 
 
 
-.menu-list li.active ion-icon {
+.active .menu-list--ion-icon {
   background-color: #4FD1C5;
   padding:7px 7px;
   border-radius: 12px;
