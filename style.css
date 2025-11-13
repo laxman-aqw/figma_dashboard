@@ -17,7 +17,8 @@ body {
   flex-direction: column;
 }
 
-.main-content {
+
+.main-dashboard {
   margin-left: 250px;
   flex: 1;
   min-height: 100vh;
@@ -25,11 +26,11 @@ body {
   overflow: hidden;
 }
 
-.topbar {
+.header {
   position: absolute;
   top: 0;
   background-color: #f8f9fc;
-  padding: 20px 40px;
+  padding: 10px 35px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -48,7 +49,30 @@ body {
   justify-content:space-between;
 }
 
+.header--breadcrumbs p{
+  font-size: 12px;
+  font-weight: 400;
+}
 
+
+.header--breadcrumbs{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  gap: 10px;
+  margin-top: 13px;
+}
+
+.breadcrumbs-pages-text{
+    color: #9ca3af;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.header--breadcrumbs h1{
+  font-size: 14px;
+  font-weight: 700;
+}
 
 .sidebar {
   position: fixed;
@@ -59,6 +83,82 @@ body {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
+}
+
+.search-area{
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  padding: 24px 20px;
+  gap: 15px;
+  align-items: center;
+  margin: -8px 42px 0px 0px;
+  color:#718096;
+}
+
+.search-area--btn{
+  color:#718096;
+}
+
+.search-area-btn {
+  color: #718096;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.icon{
+  font-size: 12px;
+}
+
+.search-box{
+  border-radius: 20px;
+  padding: 10px 14px 10px 25px;
+  outline: none;
+  border: none;
+  width: 175px;
+}
+
+.search-box::placeholder {
+  color: #A0AEC0;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.search-area--btn{
+  border: none;
+  background-color:#f8f9fc ;
+  padding-top: 4px;
+}
+
+.icon-setting{
+  margin-right: 2px;
+}
+
+.sign-in-space{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-right: 7px;
+  padding-bottom: 2px;
+}
+
+
+.magnifying-glass{
+  color: black;
+  font-size:16px;
+  background-color: white;
+  padding-top: 11px;
+  margin-right: -15px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.search-input{
+  border: 1px solid #E2E8F0;
+  background-color: white;
+  margin-right: 3px;
+  border-radius: 15px;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
 }

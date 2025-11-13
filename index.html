@@ -5,7 +5,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard UI</title>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -39,22 +38,28 @@
 
         </aside>
 
-        <main class="main-content">
-            <header class="topbar">
-                <div class="topbar-left">
-                    <p>Pages / Dashboard</p>
+        <main class="main-dashboard">
+            <header class="header">
+                <div class="header--breadcrumbs">
+                    <p> <span class="breadcrumbs-pages-text"> Pages</span>&nbsp; /&nbsp; Dashboard</p>
                     <h1>Dashboard</h1>
                 </div>
 
-                <div class="topbar-right">
-                    <input type="text" placeholder="Type here..." />
-                    <a href="#">Sign In</a>
-                    <span class="settings">S</span>
-                    <span class="notification">N</span>
+                <div class="search-area">
+                    <div class="search-input">
+                        <span><ion-icon class="icon magnifying-glass" name="search-sharp"></ion-icon></span>
+                        <input class="search-box" type="text" placeholder="Type here..." />
+                    </div>
+                    <div class="sign-in-space">
+                        <ion-icon class="icon icon-person" name="person"></ion-icon>
+                        <a class="search-area-btn" href="#">Sign In</a>
+                    </div>
+                    <button class="search-area--btn btn-settings"><span><ion-icon class="icon icon-setting" name="settings-sharp"></ion-icon></span></button>
+                    <button class="search-area--btn btn-notifications"><span><ion-icon class="icon icon-notification" name="notifications"></ion-icon></span></button>
                 </div>
             </header>
 
-            <section class="page-content">
+            <section class="background">
 
             </section>
             <footer class="footer">
@@ -68,6 +73,7 @@
             </footer>
         </main>
     </div>
-</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script></body>
 
 </html>
